@@ -1,0 +1,30 @@
+{
+  "name": "endlessrunner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "web-dev-server --node-resolve --open --watch",
+    "build": "rollup --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yumingt/endlessrunner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yumingt/endlessrunner/issues"
+  },
+  "homepage": "https://github.com/yumingt/endlessrunner#readme",
+  "dependencies": {
+    "three": "^0.149.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@web/dev-server": "^0.1.35",
+    "rollup": "^3.17.2",
+    "rollup-plugin-copy": "^3.4.0"
+  }
+}
